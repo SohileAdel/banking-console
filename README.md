@@ -1,1 +1,1 @@
-basic banking application coded with java
+banking console application with java
