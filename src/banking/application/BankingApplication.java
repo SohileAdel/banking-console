@@ -338,14 +338,13 @@ public class BankingApplication {
     }
     
     public static void back(){
-        String[] yess = {"Y","y"};
         do{
             System.out.print("Type \"y\" to back: ");
             back=c.next();
             if(!back.equalsIgnoreCase("y")){
                 System.out.println("Invalid input, please type it correctly.");
             }
-        }while(!(Arrays.toString(yess)).contains(back));
+        }while(!back.equalsIgnoreCase("y"));
     }
     public static int tryCatchInt(int x){
         do{
